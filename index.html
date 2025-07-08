@@ -1,25 +1,126 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Hello World!</title>
-    <meta charset="utf-8">
-  </head>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" tpye="text/css" href="style.css">
+  <title>당신 근처의 당근마켓</title>
+  <script src="https://kit.fontawesome.com/609e7b9d0a.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="image/favicon.png">
+</head>
+<body>
+  <header>
+    <div class="left-menu">
+      <div class="logo">
+        <img src="image/logo.png">
+      </div>
+      <nav class="header-nav">
+        <ul>
+          <li>
+            <a class="color-orange" href="#">중고거래</a>
+          </li>
+          <li>
+            <a href="#">동네가게</a>
+          </li>
+          <li>
+            <a href="#">알바</a>
+          </li>
+          <li>
+            <a href="#">부동산 직거래</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="right-menu">
+      <div>
+        <form>
+          <input class="btn-search" type="search" placeholder="물품이나 동네를 검색해보세요">
+        </form>
+      </div>
+      <div>
+        <a class="btn-cheting" href="">채팅하기</a>
+      </div>
+    </div>
+  </header>
 
-  <body>
-    <h1>코드수정함</h1>
-    <h1><a href="index.html">Home</a></h1>
-    <hr>
-    
-    <ol>
-      <li><a href="1.html">VScode와 다양한 확장프로그램</a></li>
-      <li><a href="2.html">img 태그</a></li>
-      <li><a href="3.html">video 태그</a></li>
-    </ol>
-    <hr>
+  <content>
+    <section id="section-top">
+      <div class="marginleft">
+        <h1>당신 근처의<br>당근마켓</h1>
+        <p>
+          중고 거래부터 동네 정보까지, 이웃과 함께해<br>
+          가깝고 따뜻한 당신의 근처를 만들어요.
+        </p>
+      </div>
+      <div>
+        <img src="image/1.png" width="800px" height="685px">
+      </div>
+    </section>
+    <section id="section-mid">
+      <div>
+        <img src="image/2.png" width="530px" height="685px">
+      </div>
+      <div>
+        <h1>우리 동네<br>중고 직거래 마켓</h1>
+        <p>
+          동네 주민들과 가깝고 따뜻한 거래를 지금 경험해보세요.
+        </p>
+        <div>
+          <a class="btn" href="#">인기매물 보기</a>
+          <a class="btn" href="#">믿을 수 있는 중고거래</a>
+        </div>
+      </div>
+    </section>
+  </content>
 
-    <p>
-      우리는 지금까지 다양한 <strong>태그</strong>들을 공부했습니다!<br>
-      다시 정리할겸 <em>연습해보도록 합시다.</em>
-    </p> 
-  </body>
+  <footer>
+    <div>
+      <nav class="footer-nav">
+        <div class="flex">
+          <ul>
+            <li>
+              <a href="#">중고거래</a>
+            </li>
+            <li>
+              <a href="#">동네가게</a>
+            </li>
+            <li>
+              <a href="#">당근알바</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#">당근비즈니스</a>
+            </li>
+            <li>
+              <a href="#">채팅하기</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#">자주 묻는 질문</a>
+            </li>
+            <li>
+              <a href="#">회사 소개</a>
+            </li>
+            <li>
+              <a href="#">인재 채용</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>당근마켓 앱 다운로드</h5>
+          <a class="btn" href="#">
+            <i class="fa-brands fa-apple"></i>&nbsp;App Store
+          </a>
+          <a class="btn" href="#">
+            <i class="fa-brands fa-google-play"></i>&nbsp;Google Play
+          </a>
+          
+        </div>
+      </nav>
+    </div>
+  </footer>
+</body>
 </html>
